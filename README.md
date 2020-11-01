@@ -7,7 +7,7 @@ For now the data is guaranteed to be connected, so no need to compute the connec
 
 The code should be callable from the terminal. In can be written in any language, and we will figure out as we go how to guarantee that the required packages are available. We will probably rely on conda.
 
-Create a folder with your name or pseudo or team name, add your code to it and add the `infos.json` file that contains the command that should be used for execution. Then submit your code as merge request. 
+Create a folder with your name or pseudo or team name, add your code to it and add the `infos.json` file that contains the command that should be used for execution. Then submit your code as `pull request`. 
 
 We will compile a leader board!
 
