@@ -1,2 +1,17 @@
 # twoway-yourway
 Implement your own version of two way fixed effect estimators. This is meant as a learning tool!
+
+We are starting this as an assignment in the labor course at UChicago. Anyone can submit code which computes a two way fixed effect decomposition when given as an input a csv file with 3 columns `i` the worker id, `fid` the firm identifier and `lw` the log wage. 
+
+For now the data is guaranteed to be connected, so no need to compute the connected set. Just construct the firm fix effects and return them as a dictionary into a `json` file.
+
+The code should be callable from the terminal. In can be written in any language, and we will figure out as we go how to guarantee that the required packages are available. We will probably rely on conda.
+
+Create a folder with your name or pseudo or team name, add your code to it and add the `infos.json` file that contains the command that should be used for execution. Then submit your code as merge request. 
+
+We will compile a leader board!
+
+I have added a simple zig-zag example in the python-example folder.
+
+Good luck!
+
