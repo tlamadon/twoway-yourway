@@ -5,7 +5,7 @@ import json
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--data", help = "csv data file")
-parser.add_argument("--res", help = "csv data file",default="result.json")
+parser.add_argument("--res", help = "csv data file",default="results.json")
 args, unknown = parser.parse_known_args()
 
 # loading the data
@@ -39,4 +39,4 @@ res = dict(zip(dt.fid, dt.psi))
 
 # save to json
 with open(args.res, 'w') as fp:
-    json.dump(res, fp)
+    json.dump({"fids":res}, fp)
