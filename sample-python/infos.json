@@ -1,0 +1,8 @@
+{
+    "pandas-example": {
+        "author":"tibo",
+        "command":"python twoway-pandas.py --data {} --res {}",
+        "info":"crude zig zag implementation using pandas",
+        "language":"python"
+    }
+}
