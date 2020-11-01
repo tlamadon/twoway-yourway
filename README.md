@@ -1,7 +1,7 @@
 # twoway-yourway
 Implement your own version of two way fixed effect estimators. This is meant as a learning tool!
 
-We are starting this as an assignment in the labor course at UChicago. Anyone can submit code which computes a two way fixed effect decomposition when given as an input a csv file with 3 columns `i` the worker id, `fid` the firm identifier and `lw` the log wage. 
+We are starting this as an assignment in the labor course at UChicago. Anyone can submit code which computes a two way fixed effect decomposition when given as an input a csv file with 3 columns `i` the worker id, `fid` the firm identifier and `lw` the log wage. You can find an example of such a data file here [matched-data.csv](data/matched-data.csv).  
 
 For now the data is guaranteed to be connected, so no need to compute the connected set. Just construct the firm fix effects and return them as a dictionary into a `json` file.
 
